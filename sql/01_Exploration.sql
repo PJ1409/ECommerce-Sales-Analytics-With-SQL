@@ -47,17 +47,6 @@ FROM ecom.orders;
 SELECT COUNT(DISTINCT Customer_Id) 
 FROM ecom.Customers;
 
---Total Revenue--
---Average Revenue per order and Average revenue per customer--
-
-SELECT
-COUNT(DISTINCT order_id) AS total_orders,
-COUNT(DISTINCT customer_id) AS total_customers,
-SUM(total) AS Revenue,
-ROUND(SUM(total)/COUNT(DISTINCT order_id) , 2) as avg_revenue_per_order,
-ROUND(SUM(total)/COUNT(DISTINCT customer_id) , 2) as avg_revenue_per_customer
-FROM orders;
-
 ---Total number of products--
 
 SELECT
