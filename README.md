@@ -35,13 +35,14 @@ This concentration makes customer retention and continued engagement important a
 | One-Time Buyer | 3,034     | 30.34%      | $23.15M  | 15.39%    | 1.00        | $7,630.70            |
 
 Customer Segmentation Framework
+
 Customers were segmented using the number of delivered orders during the analysis period:
+- No order = 0 delivered orders
+- One Time Buyer = 1 delivered order
+- Repeat Buyer = 2-4 delivered orders
+- VIP Buyer = 5+ delivered orders
 
 Segment	Definition
-No-orders:       0 delivered orders
-One-Time Buyer:  1 delivered order
-Repeat Buyer: 	 2–4 delivered orders
-VIP Buyer:       5+ delivered orders
 
 Repeat Buyers have 2.89× the average lifetime spend of One-Time Buyers, while VIP Buyers have 9.96× the average lifetime spend.
 
@@ -63,30 +64,26 @@ Finding: A relatively small group of Repeat and VIP customers contributes the ma
 
 [Read Detailed Customer Segment Analysis](./findings/03_Customer_Segment.md)
 
-# Repository Structure
+## Repository Structure
 
-Ecommerce_Sales_Analysis/
-│
-├── SQL/
-│   ├── 01_exploration.sql
-│   ├── 02_revenue.sql
-│   └── 03_customers.sql
-│
-├── Findings/
-│   ├── executive_summary.md
-│   ├── business_health.md
-│   └── customer_segments.md
-│
-└── README.md
+- SQL
+  - 01_exploration.sql
+  - 02_revenue.sql
+  - 03_customers.sql
+- Findings
+  - executive_summary.md
+  - business_health.md
+  - customer_segments.md
+  - README.md
 
 # Tools Used
-PostgreSQL
-SQL
-Common Table Expressions (CTEs)
-Window Functions
-Aggregate Functions
-Joins
-Conditional Aggregation
-Git & GitHub
+- PostgreSQL
+- SQL
+- Common Table Expressions (CTEs)
+- Window Functions
+- Aggregate Functions
+- Joins
+- Conditional Aggregation
+- Git & GitHub
 
 
