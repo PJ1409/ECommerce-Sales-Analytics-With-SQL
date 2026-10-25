@@ -1,4 +1,4 @@
-## CUSTOMER SEGMENTATION AND Q4MARKETING FOCUS
+## CUSTOMER SEGMENTATION AND Q4 MARKETING FOCUS
 We segmented customers based on the number of delivered orders during the analysis period:
 
 - No-orders: 0 delivered orders
